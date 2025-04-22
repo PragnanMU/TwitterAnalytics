@@ -5,10 +5,10 @@ import time
 
 # connect to the MySQL database
 mydb = mysql.connector.connect(
-    host="YOUR_HOST_NAME",
-    user="YOUR_USER_NAME_OF_DATABASE",
-    password="DATABASE_PASSWORD",
-    database="DATABASE_NAME"
+    host="localhost",
+    user="root",
+    password="Pragnan@2004",
+    database="tweet_hashtags_db"
 )
 
 # create a cursor to execute SQL queries
@@ -112,3 +112,4 @@ while True:
         print(e)
         # in case of any error, sleep for a shorter time and try again
         time.sleep(2)
+urs producer
